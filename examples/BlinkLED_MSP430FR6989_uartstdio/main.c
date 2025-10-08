@@ -52,8 +52,8 @@ void init(void)
 
 int main(void) {
 	unsigned int choice;
-	uint8_t my_integer = 187;
-	uint16_t my_hex_integer = 32767;
+	uint8_t my_integer = 187; //use unsigned long, if stdint doesn't work
+	uint16_t my_hex_integer = 32767; //use unsigned long, if stdint doesn't work
 	char my_string[MAX_STR_SIZE];
 
     init();
